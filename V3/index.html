@@ -1,16 +1,35 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="en" ng-app="LogixalApp" >
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
 	<script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
 	
 	<script type="text/javascript" src="js/main.js"></script>
 	
 </head>
-<body ng-app="LogixalApp">
-	<div ng-controller="LeftPane">Hey Jude</div>
+<body class="container-fluid" ng-controller="Root">
+<nav class="navbar navbar-toggleable-md navbar-dark bg-faded">
+	<a class="navbar-brand" href="#">
+		<img src="images/Logixal-logo-default.PNG" height="30" alt="">
+	</a>
+</nav>
+<div class="row">
+	<div ng-controller="LeftPane" class="col-md-12 col-xl-3" id="kd-menu">
+		<ul class="list-group">
+			<li ng-repeat="p in pages" class="list-group-item">
+				<a ng-bind="p.name" href="{{p.url}}"></a>
+			</li>
+		</ul>
+	</div>
+	<div ng-controller="Stage" class="col-md-12 col-xl-9" id="kd-stage">
+		
+	</div>
+</div>
 </body>
 </html>
