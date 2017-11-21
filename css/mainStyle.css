@@ -4,4 +4,25 @@
   	background:#f6f7f9 url('../images/07c-Worldmap-tablet.png') no-repeat 0px 10px/100% auto;
   }
 }
-  
+#start-grey>section:nth-child(2n),
+#start-grey>section.hide:nth-child(2n)+section{
+  background-color: #fff;
+}
+#start-grey>section:nth-child(2n+1),
+#start-grey>section.hide:nth-child(2n+1)+section{
+  background-color: #f5f6f8;
+}
+#start-white>section:nth-child(2n),
+#start-white>section.hide:nth-child(2n)+section{
+  background-color: #f5f6f8;
+}
+#start-white>section:nth-child(2n+1),
+#start-white>section.hide:nth-child(2n+1)+section{
+  background-color: #fff;
+}
+
+#start-grey #logixalLocation,
+#start-white #logixalLocation,
+#logixalLocation{
+  background-color:#f5f6f8;
+}

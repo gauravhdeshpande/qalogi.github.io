@@ -11,24 +11,54 @@
 	<script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
 	
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/directives.js"></script>
 	
 </head>
 <body class="container-fluid" ng-controller="Root">
-<nav class="navbar navbar-toggleable-md navbar-dark bg-faded">
-	<a class="navbar-brand" href="#">
-		<img src="images/Logixal-logo-default.PNG" height="30" alt="">
-	</a>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" ng-click="click1($event)"class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        Button to collapse                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" ng-class="nav?'in':''"id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="fa fa-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="fa fa-"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 <div class="row">
-	<div ng-controller="LeftPane" class="col-md-12 col-xl-3" id="kd-menu">
+	<div ng-controller="LeftPane" div="" firstName="mimo" class="col-sm-12 col-md-3" id="kd-menu">
 		<ul class="list-group">
-			<li ng-repeat="p in pages" class="list-group-item">
+			<li ng-repeat="p in pages" class="list-group-item list-group-item-action">
 				<a ng-bind="p.name" href="{{p.url}}"></a>
 			</li>
 		</ul>
+		<diva firsatName="LeftFirstname"></diva>
 	</div>
-	<div ng-controller="Stage" class="col-md-12 col-xl-9" id="kd-stage">
-		
+	<div ng-controller="Stage" div="" firstName="kiko" class="col-sm-12 col-md-9" id="kd-stage">
+		<div class="row">
+		 Heyo
+		</div>
+		<diva firstName="NoName"></diva>
 	</div>
 </div>
 </body>
