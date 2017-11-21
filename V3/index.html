@@ -16,15 +16,15 @@
 </head>
 <body class="container-fluid" ng-controller="Root">
 
-<nav class="navbar navbar-inverse">
+<nav class="hamburger navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" ng-click="click1($event)"class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <a href="#" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
         Button to collapse                        
-      </button>
+      </a>
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
-    <div class="collapse navbar-collapse" ng-class="nav?'in':''"id="myNavbar">
+    <div class="" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li class="dropdown">
@@ -45,16 +45,17 @@
     </div>
   </div>
 </nav>
+
 <div class="row">
-	<div ng-controller="LeftPane" div="" firstName="mimo" class="col-sm-12 col-md-3" id="kd-menu">
+	<div ng-controller="LeftPane" class="col-sm-12 col-md-3" id="kd-menu">
 		<ul class="list-group">
 			<li ng-repeat="p in pages" class="list-group-item list-group-item-action">
 				<a ng-bind="p.name" href="{{p.url}}"></a>
 			</li>
 		</ul>
-		<diva firsatName="LeftFirstname"></diva>
+		<diva firstName="LeftFirstname"></diva>
 	</div>
-	<div ng-controller="Stage" div="" firstName="kiko" class="col-sm-12 col-md-9" id="kd-stage">
+	<div ng-controller="Stage" class="col-sm-12 col-md-9" id="kd-stage">
 		<div class="row">
 		 Heyo
 		</div>

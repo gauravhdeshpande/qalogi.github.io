@@ -1,16 +1,34 @@
 (function(){
 	var app = angular.module('LogixalApp');
-	kiko = app;
-	app.directive('diva',function(){
+	
+	app.directive('a',HashHref);
+	app.directive('hamburger',Ham);
+	
+	function HashHref(){
 		var directive = {
-			
-		};
-		directive.restrict = "AE";
-		console.log('wo',directive.scope);
-		/*directive.scope = {
-			fn:"=firstName"
-		}*/
-		directive.template = "My first directive:{{user}} and {{fn}}";
+			restrict:'E',
+			link:link
+		}
 		return directive;
-	})
+		function link(scope,element,attrs){
+			if(attrs.href == "#"){
+				element.on('click',function(e){
+					e.preventDefault();
+					console.log('wallah');
+				});
+			}
+		}
+	}
+	function Ham(){
+		console.log('heyo');
+		var directive =  {
+			restrict:"EC",
+			link:link
+		}
+		return directive;
+		function link(scope,el,attrs){
+			console.log(el);
+			var toggler = el.children('.navbar-toggler')
+		}
+	}
 })(angular)

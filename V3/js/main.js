@@ -1,7 +1,6 @@
 
 var app = angular.module('LogixalApp',[])
 .controller('LeftPane',["$scope",function($sc){
-console.log('hie',$sc);
 $sc.pages=[{
 	"name":"What We Do",
 	"url" :"/home",
@@ -29,7 +28,6 @@ $sc.pages=[{
 $sc.user = "LeftPaneUser";
 }]);
 app.controller('Root',["$scope",function($sc){
-	console.log('i am grut');
 	$sc.nav = false;
 	$sc.pages=[{
 	"name":"What We Do",
@@ -57,12 +55,10 @@ app.controller('Root',["$scope",function($sc){
 }];
 $sc.click1 = function($e){
 	$sc.nav = !$sc.nav;
-	console.log($sc.nav);
 }
 
 
 }]);
 app.controller('Stage',["$scope",function($sc){
-	console.log('i am stageee');
 	$sc.user = "StageUser";
 }])
