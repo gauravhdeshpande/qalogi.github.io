@@ -2,7 +2,7 @@
 	var app = angular.module('LogixalApp');
 	
 	app.directive('a',HashHref);
-	app.directive('hamburger',Ham);
+	app.directive('hamburger',HamDirective);
 	
 	function HashHref(){
 		var directive = {
@@ -14,21 +14,27 @@
 			if(attrs.href == "#"){
 				element.on('click',function(e){
 					e.preventDefault();
-					console.log('wallah');
 				});
 			}
 		}
 	}
-	function Ham(){
-		console.log('heyo');
+	function HamDirective(){
 		var directive =  {
-			restrict:"EC",
-			link:link
+			restrict:"E",
+			link:link,
+			templateUrl: 'templates/hamburger-menu.html',
+			controller:HamCntrl,
+			controllerAs:'Ham'
 		}
 		return directive;
 		function link(scope,el,attrs){
-			console.log(el);
-			var toggler = el.children('.navbar-toggler')
+			
+		}
+	}
+	function HamCntrl(){
+		this.showMenu = false;
+		this.click = function(){
+			this.showMenu = !this.showMenu;
 		}
 	}
 })(angular)

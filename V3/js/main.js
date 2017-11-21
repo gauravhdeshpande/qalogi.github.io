@@ -28,6 +28,7 @@ $sc.pages=[{
 $sc.user = "LeftPaneUser";
 }]);
 app.controller('Root',["$scope",function($sc){
+	$sc.sayHello = "HI";
 	$sc.nav = false;
 	$sc.pages=[{
 	"name":"What We Do",
