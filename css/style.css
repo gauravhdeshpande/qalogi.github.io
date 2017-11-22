@@ -2671,3 +2671,19 @@ a.accordion-toggle>img {
     margin-bottom: 0 !important;
     font-size: 18px !important;
   }
+  
+  /************* Dirty Fixes **************/
+	.definition-banking,
+	.s1{
+		padding-bottom:15px;
+	}
+	.definition-banking .row,
+	.s1 .row{
+		padding:5px 0;
+	}
+	section.oracle-partner-Section{
+		border-bottom: 1px solid #d0d0d0;
+	}
+	section.product-offered-logixal{
+		border:none;
+	}
