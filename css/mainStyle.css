@@ -41,6 +41,7 @@ ul.icon-gallery li a{
 	height:145px;
 	text-decoration:none;
 	position:relative;
+	color:#000;
 }
 ul.icon-gallery li a span{
 	position:absolute;
