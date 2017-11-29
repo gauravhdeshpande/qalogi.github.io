@@ -27,9 +27,118 @@
   background-color:#f5f6f8;
 }
 
-@media only screen and (min-width:992px){
-	
+ul.icon-gallery{
+	padding:0;
 }
+ul.icon-gallery li{
+	list-style:none;
+	margin:10px 0;
+}
+ul.icon-gallery li a{
+	display:block;
+	border:1px solid #d3d3d3;
+	background:#fff url("../images/icons_kd/icon_bubble.PNG") no-repeat center top/auto auto;
+	height:145px;
+	text-decoration:none;
+	position:relative;
+}
+ul.icon-gallery li a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
+	//background:#ededed;
+	min-height:45px;
+	font-size:14px;
+	font-weight:bold;
+}
+ul.icon-gallery li a.lock{
+	background-image:url("../images/icons_kd/icon_lock.PNG")
+}
+ul.icon-gallery li a.mobile{
+	background-image:url("../images/icons_kd/icon_mobile.PNG")
+}
+ul.icon-gallery li a.oracle{
+	background-image:url("../images/icons_kd/logo_oracle.PNG")
+}
+ul.icon-gallery li a.payment{
+	background-image:url("../images/icons_kd/icon_card_tick.PNG")
+}
+ul.icon-gallery li a.graph{
+	background-image:url("../images/icons_kd/icon_graph.PNG")
+}
+ul.icon-gallery li a.cart{
+	background-image:url("../images/icons_kd/icon_cart.PNG")
+}
+ul.icon-gallery li a.comego{
+	background-image:url("../images/icons_kd/icon_come_go.PNG")
+}
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+		
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		ul.icon-gallery li a span{
+			width:80%;
+			left:10%;
+		}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+		ul.icon-gallery li{width:100%;}
+    }
+
 
 
 
