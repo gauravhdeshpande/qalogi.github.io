@@ -1236,6 +1236,7 @@ a.ourteam {
   background: #dd042b;
   color: #fff;
   border-radius: 100px;
+  font-size: 10px !important;
 }
 
 /* Footer */
