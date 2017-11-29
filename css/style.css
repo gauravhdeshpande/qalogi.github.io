@@ -777,6 +777,11 @@ margin-top: 30px;*/
 }
 
 @media (min-width: 768px) {
+  a.ourteam {
+      font-size: 10px !important;
+  }
+
+
   .small, small {
     font-size: 100%;
   }
@@ -825,6 +830,12 @@ margin-top: 30px;*/
     width: 20%;
     float: left;
   }
+
+/*Width and Height for Banner on Desktop devices */
+.resize-inner-banner {
+        min-height: 318px;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -2570,6 +2581,8 @@ a.accordion-toggle>img {
 }
 
 @media only screen and (min-width:1200px) {
+
+
   .member-logos>img {
     height: auto;
     width: 42% !important;
@@ -2671,7 +2684,7 @@ a.accordion-toggle>img {
     margin-bottom: 0 !important;
     font-size: 18px !important;
   }
-  
+
   /************* Dirty Fixes **************/
 	.definition-banking,
 	.s1{
