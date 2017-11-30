@@ -37,7 +37,7 @@ ul.icon-gallery li{
 ul.icon-gallery li a{
 	display:block;
 	border:1px solid #d3d3d3;
-	background:#fff url(../images/icons_kd/icon_bubble.png) no-repeat center top/auto auto;
+	background:#fff url('../images/icons_kd/icon_bubble.png') no-repeat center top/auto auto;
 	height:145px;
 	text-decoration:none;
 	position:relative;
@@ -56,25 +56,25 @@ ul.icon-gallery li a span{
 	font-weight:bold;
 }
 ul.icon-gallery li a.lock{
-	background-image:url("../images/icons_kd/icon_lock.png")
+	background-image:url('../images/icons_kd/icon_lock.png')
 }
 ul.icon-gallery li a.mobile{
-	background-image:url("../images/icons_kd/icon_mobile.PNG")
+	background-image:url('../images/icons_kd/icon_mobile.png')
 }
 ul.icon-gallery li a.oracle{
-	background-image:url("../images/icons_kd/logo_oracle.PNG")
+	background-image:url('../images/icons_kd/logo_oracle.png')
 }
 ul.icon-gallery li a.payment{
-	background-image:url("../images/icons_kd/icon_card_tick.PNG")
+	background-image:url('../images/icons_kd/icon_card_tick.png')
 }
 ul.icon-gallery li a.graph{
-	background-image:url("../images/icons_kd/icon_graph.PNG")
+	background-image:url('../images/icons_kd/icon_graph.png')
 }
 ul.icon-gallery li a.cart{
-	background-image:url("../images/icons_kd/icon_cart.PNG")
+	background-image:url('../images/icons_kd/icon_cart.png')
 }
 ul.icon-gallery li a.comego{
-	background-image:url("../images/icons_kd/icon_come_go.PNG")
+	background-image:url('../images/icons_kd/icon_come_go.png')
 }
 
 
