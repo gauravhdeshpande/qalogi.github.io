@@ -37,7 +37,7 @@ ul.icon-gallery li{
 ul.icon-gallery li a{
 	display:block;
 	border:1px solid #d3d3d3;
-	background:#fff url('../images/icons_kd/icon_bubble.PNG') no-repeat center top/auto auto;
+	background:#fff url("../images/icons_kd/icon_bubble.png") no-repeat center top/auto auto;
 	height:145px;
 	text-decoration:none;
 	position:relative;
@@ -56,7 +56,7 @@ ul.icon-gallery li a span{
 	font-weight:bold;
 }
 ul.icon-gallery li a.lock{
-	background-image:url('../images/icons_kd/icon_lock.PNG')
+	background-image:url("../images/icons_kd/icon_lock.png")
 }
 ul.icon-gallery li a.mobile{
 	background-image:url("../images/icons_kd/icon_mobile.PNG")
