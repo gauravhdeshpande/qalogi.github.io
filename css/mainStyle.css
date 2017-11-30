@@ -58,8 +58,9 @@ ul.icon-gallery li > a span{
 ul.icon-gallery li > a.lock{
 	background-image:url('../images/icons_kd/icon_lock.png')
 }
-ul.icon-gallery li > a.mobile{
-	background-image:url('../images/icons_kd/icon_mobile.png')
+ul.icon-gallery li > a.mobile.kd-ico{
+	/*background-image:url('../images/icons_kd/icon_mobile.png');*/
+	background:#fff url('../images/icons_kd/icon_mobile.png') no-repeat left 55% top/auto auto;
 }
 ul.icon-gallery li > a.oracle{
 	background-image:url('../images/icons_kd/logo_oracle.png')
@@ -125,7 +126,13 @@ ul.lines-of-business li > a.lob3{
 ul.lines-of-business li > a.lob4{
 	background-image:url('../images/icons_kd/lob/02d.jpg')
 }
-
+.sh1{
+	margin:0;
+	padding:0;
+}
+.sh1 + p{
+	margin:0;
+}
 
 
 /*==================================================
@@ -163,7 +170,7 @@ ul.lines-of-business li > a.lob4{
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-
+		
     }
 
     /* Medium Devices, Desktops */
