@@ -126,13 +126,11 @@ ul.lines-of-business li > a.lob3{
 ul.lines-of-business li > a.lob4{
 	background-image:url('../images/icons_kd/lob/02d.jpg')
 }
-.sh1{
-	margin:0;
-	padding:0;
+.white-text,
+.text-accel-widget a.white-text{
+	color:#fff;
 }
-.sh1 + p{
-	margin:0;
-}
+
 
 
 /*==================================================
