@@ -28,13 +28,14 @@
 }
 
 ul.icon-gallery{
-	padding:0;
+	padding:20px 0;
 }
-ul.icon-gallery li{
+ul.icon-gallery li,
+ul.lines-of-business li{
 	list-style:none;
 	margin:10px 0;
 }
-ul.icon-gallery li a{
+ul.icon-gallery li > a{
 	display:block;
 	border:1px solid #d3d3d3;
 	background:#fff url('../images/icons_kd/icon_bubble.png') no-repeat center top/auto auto;
@@ -43,7 +44,7 @@ ul.icon-gallery li a{
 	position:relative;
 	color:#000;
 }
-ul.icon-gallery li a span{
+ul.icon-gallery li > a span{
 	position:absolute;
 	width:50%;
 	left:25%;
@@ -53,28 +54,76 @@ ul.icon-gallery li a span{
 	//background:#ededed;
 	min-height:45px;
 	font-size:14px;
-	font-weight:bold;
 }
-ul.icon-gallery li a.lock{
+ul.icon-gallery li > a.lock{
 	background-image:url('../images/icons_kd/icon_lock.png')
 }
-ul.icon-gallery li a.mobile{
+ul.icon-gallery li > a.mobile{
 	background-image:url('../images/icons_kd/icon_mobile.png')
 }
-ul.icon-gallery li a.oracle{
+ul.icon-gallery li > a.oracle{
 	background-image:url('../images/icons_kd/logo_oracle.png')
 }
-ul.icon-gallery li a.payment{
+ul.icon-gallery li > a.payment{
 	background-image:url('../images/icons_kd/icon_card_tick.png')
 }
-ul.icon-gallery li a.graph{
+ul.icon-gallery li > a.graph{
 	background-image:url('../images/icons_kd/icon_graph.png')
 }
-ul.icon-gallery li a.cart{
+ul.icon-gallery li > a.cart{
 	background-image:url('../images/icons_kd/icon_cart.png')
 }
-ul.icon-gallery li a.comego{
+ul.icon-gallery li > a.comego{
 	background-image:url('../images/icons_kd/icon_come_go.png')
+}
+ul#kiko.lines-of-business li > a{
+	max-width:250px;
+}
+ul.lines-of-business li > a{
+	display:block;
+	border:none;
+	background:#fff url('../images/icons_kd/lob/02a.jpg') no-repeat left top/100% auto;
+	min-height:190px;
+	text-decoration:none;
+	position:relative;
+	color:#000;
+}
+ul.lines-of-business li > a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
+	min-height:45px;
+	font-size:14px;
+	color:#000;
+}
+ul.lines-of-business li > a+.overlay-lob{
+	transition: .8s ease;
+    width: 90%;
+    margin: 0 5%;
+	max-width:250px;
+}
+ul.lines-of-business li:hover > a+.overlay-lob{
+	height: 100%;
+    
+}
+ul.lines-of-business li > a span{
+	width:80%;
+	left:10%;
+}
+ul.lines-of-business li > a.lob1{
+	background-image:url('../images/icons_kd/lob/02a.jpg')
+}
+ul.lines-of-business li > a.lob2{
+	background-image:url('../images/icons_kd/lob/02b.jpg')
+}
+ul.lines-of-business li > a.lob3{
+	background-image:url('../images/icons_kd/lob/02c.jpg')
+}
+ul.lines-of-business li > a.lob4{
+	background-image:url('../images/icons_kd/lob/02d.jpg')
 }
 
 
@@ -129,7 +178,7 @@ ul.icon-gallery li a.comego{
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-		ul.icon-gallery li a span{
+		ul.icon-gallery li > a span{
 			width:80%;
 			left:10%;
 		}
