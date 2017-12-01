@@ -440,7 +440,9 @@ h5 {
 
 /* Custom Classes Logixal */
 
-
+.topBuffer {
+    margin-bottom: 2em;
+}
 
 .hide {
   display: none;
