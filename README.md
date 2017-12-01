@@ -1,1 +1,0 @@
-# qalogi.github.io
