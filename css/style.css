@@ -440,6 +440,12 @@ h5 {
 
 /* Custom Classes Logixal */
 
+/*Digital Commerce Page */
+.column-2 {
+  column-count: 2;
+}
+
+
 .topBuffer {
     margin-bottom: 2em;
 }
@@ -852,7 +858,7 @@ margin-top: 30px;*/
 
 /*Alignment Classes for 1200px*/
 .mgn-tp {
-    margin-top: 15px;
+    margin-top: -3px;
 }
 
 .mgn-btm {
@@ -1853,7 +1859,27 @@ a.breadcrumb-item {
 
 /*Media Queries for 640px */
 
-@media only screen and (min-width:576px) and (max-width: 767px) {
+@media only screen and (min-width:567px) and (max-width: 767px) {
+
+
+.mt-endeca {
+  margin-top: 0.6em;
+}
+
+.mt-endeca  p {
+  margin-top: 0.6em !important;
+  margin-left: -2em !important;
+}
+
+.mt-ws {
+  margin-top: 0.6em;
+}
+
+.mt-ws-s {
+  margin-top: 0.6em;
+  margin-left: -2em !important;
+}
+
   .mt-range-b {
       margin-top: 5%;
   }
@@ -2120,6 +2146,22 @@ accel-accordion-img .accordion-toggle>img {
 }
 
 @media only screen and (min-width:768px) and (max-width: 992px) {
+
+/*Digital Commerce Column fix */
+
+.column-2 {
+  column-count: 2;
+}
+
+.mt-tab {
+  margin-top: 1.2em;
+}
+
+ .mt-tab-ws {
+    padding-top: 1.2em !important ;
+}
+
+/* / Digital Commerce Column fix */
 
   .mt14 {
     margin-top: 6px !important;
