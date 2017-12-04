@@ -108,7 +108,7 @@ ul.lines-of-business li > a+.overlay-lob{
 }
 ul.lines-of-business li:hover > a+.overlay-lob{
 	height: 100%;
-    
+
 }
 ul.lines-of-business li > a span{
 	width:80%;
@@ -139,12 +139,12 @@ ul.lines-of-business li > a.lob4{
 
     /*==========  Mobile First Method  ==========*/
 
-    /* Custom, iPhone Retina */ 
+    /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
-		
+
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
 
     }
@@ -168,7 +168,7 @@ ul.lines-of-business li > a.lob4{
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-		
+
     }
 
     /* Medium Devices, Desktops */
@@ -179,15 +179,15 @@ ul.lines-of-business li > a.lob4{
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
 		#cust-logo .customer-img{
-			width:80%;
-			margin-left:10%;
+			width:100%;
+			margin-left:0%;
 		}
 		#collapseCustomers{
 			margin:-13px 0;
 		}
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
 		ul.icon-gallery li > a span{
 			width:80%;
@@ -195,11 +195,7 @@ ul.lines-of-business li > a.lob4{
 		}
     }
 
-    /* Custom, iPhone Retina */ 
+    /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
 		ul.icon-gallery li{width:100%;}
     }
-
-
-
-
