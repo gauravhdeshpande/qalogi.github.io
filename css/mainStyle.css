@@ -1,1 +1,202 @@
-ul.icon-gallery li>a span,ul.lines-of-business li>a span{bottom:5px;line-height:20px;text-align:center;font-size:14px}@media only screen and (max-width:992px) and (min-width:320px){.footer-link{background:url(../images/07c-Worldmap-tablet.png) 0 10px/100% auto no-repeat #f6f7f9}}#start-grey>section.hide:nth-child(2n)+section,#start-grey>section:nth-child(2n){background-color:#fff}#start-grey>section.hide:nth-child(2n+1)+section,#start-grey>section:nth-child(2n+1),#start-white>section.hide:nth-child(2n)+section,#start-white>section:nth-child(2n){background-color:#f5f6f8}#start-white>section.hide:nth-child(2n+1)+section,#start-white>section:nth-child(2n+1){background-color:#fff}#logixalLocation,#start-grey #logixalLocation,#start-white #logixalLocation{background-color:#f5f6f8}ul.icon-gallery{padding:20px 0}ul.icon-gallery li,ul.lines-of-business li{list-style:none;margin:10px 0}ul.icon-gallery li>a{display:block;border:1px solid #d3d3d3;background:url(../images/icons_kd/icon_bubble.png) center top no-repeat #fff;height:145px;text-decoration:none;position:relative;color:#000}ul.icon-gallery li>a span{position:absolute;width:50%;left:25%;//background:#ededed;min-height:45px}ul.icon-gallery li>a.lock{background-image:url(../images/icons_kd/icon_lock.png)}ul.icon-gallery li>a.mobile.kd-ico{background:url(../images/icons_kd/icon_mobile.png) left 55% top no-repeat #fff}ul.icon-gallery li>a.oracle{background-image:url(../images/icons_kd/logo_oracle.png)}ul.icon-gallery li>a.payment{background-image:url(../images/icons_kd/icon_card_tick.png)}ul.icon-gallery li>a.graph{background-image:url(../images/icons_kd/icon_graph.png)}ul.icon-gallery li>a.cart{background-image:url(../images/icons_kd/icon_cart.png)}ul.icon-gallery li>a.comego{background-image:url(../images/icons_kd/icon_come_go.png)}ul#kiko.lines-of-business li>a{max-width:250px}ul.lines-of-business li>a{display:block;border:none;background:url(../images/icons_kd/lob/02a.jpg) left top/100% auto no-repeat #fff;min-height:190px;text-decoration:none;position:relative;color:#000}ul.lines-of-business li>a+.overlay-lob{transition:.8s ease;width:90%;margin:0 5%;max-width:250px}ul.lines-of-business li:hover>a+.overlay-lob{height:100%}ul.lines-of-business li>a span{position:absolute;min-height:45px;color:#000;width:80%;left:10%}ul.lines-of-business li>a.lob1{background-image:url(../images/icons_kd/lob/02a.jpg)}ul.lines-of-business li>a.lob2{background-image:url(../images/icons_kd/lob/02b.jpg)}ul.lines-of-business li>a.lob3{background-image:url(../images/icons_kd/lob/02c.jpg)}ul.lines-of-business li>a.lob4{background-image:url(../images/icons_kd/lob/02d.jpg)}.text-accel-widget a.white-text,.white-text{color:#fff}@media only screen and (max-width :480px){ul.icon-gallery li>a span{width:80%;left:10%}}@media only screen and (max-width :320px){ul.icon-gallery li{width:100%}}
+
+@media only screen and (max-width: 992px) and (min-width: 320px){
+.footer-link{
+  	background:#f6f7f9 url('../images/07c-Worldmap-tablet.png') no-repeat 0px 10px/100% auto;
+  }
+}
+#start-grey>section:nth-child(2n),
+#start-grey>section.hide:nth-child(2n)+section{
+  background-color: #fff;
+}
+#start-grey>section:nth-child(2n+1),
+#start-grey>section.hide:nth-child(2n+1)+section{
+  background-color: #f5f6f8;
+}
+#start-white>section:nth-child(2n),
+#start-white>section.hide:nth-child(2n)+section{
+  background-color: #f5f6f8;
+}
+#start-white>section:nth-child(2n+1),
+#start-white>section.hide:nth-child(2n+1)+section{
+  background-color: #fff;
+}
+
+#start-grey #logixalLocation,
+#start-white #logixalLocation,
+#logixalLocation{
+  background-color:#f5f6f8;
+}
+
+ul.icon-gallery{
+	padding:20px 0;
+}
+ul.icon-gallery li,
+ul.lines-of-business li{
+	list-style:none;
+	margin:10px 0;
+}
+ul.icon-gallery li > a{
+	display:block;
+	border:1px solid #d3d3d3;
+	background:#fff url('../images/icons_kd/icon_bubble.png') no-repeat center top/auto auto;
+	height:145px;
+	text-decoration:none;
+	position:relative;
+	color:#000;
+}
+ul.icon-gallery li > a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
+	//background:#ededed;
+	min-height:45px;
+	font-size:14px;
+}
+ul.icon-gallery li > a.lock{
+	background-image:url('../images/icons_kd/icon_lock.png')
+}
+ul.icon-gallery li > a.mobile.kd-ico{
+	/*background-image:url('../images/icons_kd/icon_mobile.png');*/
+	background:#fff url('../images/icons_kd/icon_mobile.png') no-repeat left 55% top/auto auto;
+}
+ul.icon-gallery li > a.oracle{
+	background-image:url('../images/icons_kd/logo_oracle.png')
+}
+ul.icon-gallery li > a.payment{
+	background-image:url('../images/icons_kd/icon_card_tick.png')
+}
+ul.icon-gallery li > a.graph{
+	background-image:url('../images/icons_kd/icon_graph.png')
+}
+ul.icon-gallery li > a.cart{
+	background-image:url('../images/icons_kd/icon_cart.png')
+}
+ul.icon-gallery li > a.comego{
+	background-image:url('../images/icons_kd/icon_come_go.png')
+}
+ul#kiko.lines-of-business li > a{
+	max-width:250px;
+}
+ul.lines-of-business li > a{
+	display:block;
+	border:none;
+	background:#fff url('../images/icons_kd/lob/02a.jpg') no-repeat left top/100% auto;
+	min-height:190px;
+	text-decoration:none;
+	position:relative;
+	color:#000;
+}
+ul.lines-of-business li > a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
+	min-height:45px;
+	font-size:14px;
+	color:#000;
+}
+ul.lines-of-business li > a+.overlay-lob{
+	transition: .8s ease;
+    width: 90%;
+    margin: 0 5%;
+	max-width:250px;
+}
+ul.lines-of-business li:hover > a+.overlay-lob{
+	height: 100%;
+    
+}
+ul.lines-of-business li > a span{
+	width:80%;
+	left:10%;
+}
+ul.lines-of-business li > a.lob1{
+	background-image:url('../images/icons_kd/lob/02a.jpg')
+}
+ul.lines-of-business li > a.lob2{
+	background-image:url('../images/icons_kd/lob/02b.jpg')
+}
+ul.lines-of-business li > a.lob3{
+	background-image:url('../images/icons_kd/lob/02c.jpg')
+}
+ul.lines-of-business li > a.lob4{
+	background-image:url('../images/icons_kd/lob/02d.jpg')
+}
+.white-text,
+.text-accel-widget a.white-text{
+	color:#fff;
+}
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+		
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+		
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		#cust-logo .customer-img{
+			width:80%;
+			margin-left:10%;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		ul.icon-gallery li > a span{
+			width:80%;
+			left:10%;
+		}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+		ul.icon-gallery li{width:100%;}
+    }
+
+
+
+
