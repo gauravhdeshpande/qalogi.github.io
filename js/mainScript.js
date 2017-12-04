@@ -1,1 +1,1 @@
-!function(l){l(document).ready(function(){l(document).on("click",'a[href="#"]',function(l){l.preventDefault()}),l("ul.icon-gallery li").attr("class","col-xs-6 col-md-3"),l("ul.lines-of-business li").attr("class","col-xs-12 col-sm-6 col-md-3")})}(jQuery);
+$(document).ready(function(){$(document).on("click",'a[href="#"]',function(l){l.preventDefault()}),$("ul.icon-gallery li").attr("class","col-xs-6 col-md-3"),$("ul.lines-of-business li").attr("class","col-xs-12 col-sm-6 col-md-3")});
