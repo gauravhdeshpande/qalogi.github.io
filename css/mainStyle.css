@@ -191,6 +191,15 @@ ul.lines-of-business li > a.lob4{
 		#collapseCustomers{
 			margin:-13px 0;
 		}
+		.text-center-767{
+			text-align:center;
+		}
+		.kd-p-1{
+			padding-right:15px;
+		}
+		#brandings .container-img img{
+			border:1px solid #d3d3d3;
+		}
     }
 
     /* Extra Small Devices, Phones */
@@ -216,4 +225,5 @@ ul.lines-of-business li > a.lob4{
 			height:auto;
 			/*background:#00ff00;*/
 		}
+		
 	}
