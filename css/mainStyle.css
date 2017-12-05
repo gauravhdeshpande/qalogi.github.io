@@ -209,11 +209,11 @@ ul.lines-of-business li > a.lob4{
     @media only screen and (max-width : 320px) {
 		ul.icon-gallery li{width:100%;}
     }
-	
-	@media only screen and (min-width : 419px) and (max-width : 570px){
+	/*@media only screen and (min-width : 419px) and (max-width : 570px)*/
+	@media only screen and (max-width : 570px){
 		#brandings .container-img{
 			width:50%;
 			height:auto;
-			//background:#00ff00;
+			/*background:#00ff00;*/
 		}
 	}
