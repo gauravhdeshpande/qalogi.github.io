@@ -24,7 +24,7 @@
   <script type="text/javascript" src="js/mainScript.js"></script>
 </head>
 
-<body>
+<body id="resources-page">
   <header>
     <!-- row 1: navigation -->
     <div class="container-fluid staticnav">
@@ -435,7 +435,7 @@
         jQuery('.staticnav').css({
           "background": "transparent"
         });
-        jQuery('a').css({
+        jQuery('a:not(a[href^="pdf"])').css({
           "color": "white"
         });
         jQuery('.dropdown-menu>li>a').css({

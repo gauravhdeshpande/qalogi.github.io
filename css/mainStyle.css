@@ -191,6 +191,19 @@ ul.lines-of-business li > a.lob4{
 		#collapseCustomers{
 			margin:-13px 0;
 		}
+		.text-center-767{
+			text-align:center;
+		}
+		p.kd-p-1{
+			padding-right:15px;
+			margin:0;
+		}
+		.no-mar{
+			margin-bottom:0;
+		}
+		#brandings .container-img img{
+			border:1px solid #d3d3d3;
+		}
     }
 
     /* Extra Small Devices, Phones */
@@ -209,11 +222,71 @@ ul.lines-of-business li > a.lob4{
     @media only screen and (max-width : 320px) {
 		ul.icon-gallery li{width:100%;}
     }
+<<<<<<< HEAD
 
 	@media only screen and (min-width : 419px) and (max-width : 570px){
+=======
+	/*@media only screen and (min-width : 419px) and (max-width : 570px)*/
+	@media only screen and (max-width : 570px){
+>>>>>>> b5be7f0774a511a56dd022cf140ca863fa5fc1a7
 		#brandings .container-img{
 			width:50%;
 			height:auto;
-			//background:#00ff00;
+			/*background:#00ff00;*/
+		}
+		
+	}
+	@media only screen and (min-width : 567px)and (max-width:992px){
+		p.hidden-sm.hidden-md,
+		span.hidden-sm.hidden-md,
+		span.kd-fix-2{
+			display:none;
 		}
 	}
+	@media only screen and (min-width : 567px)and (max-width:764px){
+		#cust-logo img.customer-img {
+			width: 40%;
+			margin: 0 0 0 5%;
+		}
+		#collapseCustomers{
+			width:100%;
+			margin:5px 0 5px 0;
+		}
+		.panel-heading, .panel-body{
+			width:100%;
+		}
+		.kd-fix-4.btn-custom{
+			width:40%;
+			margin:0 6% 0 0;
+		}
+	}
+	
+/** Fixing Footer ***/
+@media only screen and (max-width: 1199px) and (min-width: 993px){
+.tab-address {
+    float: none !important;
+    width:100%;
+}
+.row.asia-pacific-logixal .kd-fix-3{
+	margin-right: 5px;
+	min-width:33%;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	p.text-center-tablet,
+	#resources-page p,
+	#resources-page h3{
+		text-align:center;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:450px){
+	.card-success-stories.border-team .card-text{
+		font-size:14px!important;
+	}
+}
+.btn-view-more.up{
+	background:#c43537 url('../images/up-arrow.png') no-repeat right 27% center/auto auto;
+}
+.btn-view-more{
+	background:#c43537 url('../images/down-arrow.png') no-repeat right 27% center/auto auto;
+}
