@@ -250,14 +250,21 @@ ul.lines-of-business li > a.lob4{
 		.panel-heading, .panel-body{
 			width:100%;
 		}
+		.SeeMore2.btn-custom{
+			width:40%;
+			margin:0 6% 0 0;
+		}
 	}
 	
 /** Fixing Footer ***/
 @media only screen and (max-width: 1199px) and (min-width: 993px){
 .tab-address {
     float: none !important;
-    margin-right: 0em;
-	min-width:226px;
+    width:100%;
+}
+.row.asia-pacific-logixal .kd-fix-3{
+	margin-right: 5px;
+	min-width:33%;
 }
 }
 	
