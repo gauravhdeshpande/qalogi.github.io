@@ -131,6 +131,9 @@ ul.lines-of-business li > a.lob4{
 	color:#fff;
 }
 
+#cust-logo .customer-img{
+	background-color:#fff;
+}
 
 
 /*==================================================
@@ -173,14 +176,15 @@ ul.lines-of-business li > a.lob4{
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-
+		
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
 		#cust-logo .customer-img{
-			width:100%;
-			margin-left:0%;
+			width:46%;
+			margin: 0 0 0 3%;
+			display:inline;
 		}
 		#collapseCustomers{
 			margin:-13px 0;
@@ -192,6 +196,10 @@ ul.lines-of-business li > a.lob4{
 		ul.icon-gallery li > a span{
 			width:80%;
 			left:10%;
+		}
+		#cust-logo .customer-img{
+			width:100%;
+			margin:10px 0 10px 0%;
 		}
     }
 
