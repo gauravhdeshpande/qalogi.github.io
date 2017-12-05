@@ -1390,9 +1390,8 @@ a.breadcrumb-item {
 }
 
 @media only screen and (min-width:320px) and (max-width: 550px) {
-
   section.oracle-partner-Section {
-      border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
   }
   /*Digital Commerce Page */
   .column-2 {
@@ -1404,8 +1403,9 @@ a.breadcrumb-item {
   .glyphicon-minus:before, .glyphicon-plus:before {
     background: #c92d31;
     color: white;
-    padding: 3px;
+    padding: 7px;
     border-radius: 50px;
+    font-size: 10px;
   }
   .mt8 {
     margin-top: 0.8em;
@@ -2137,11 +2137,9 @@ accel-accordion-img .accordion-toggle>img {
 }
 
 @media only screen and (min-width:768px) and (max-width: 992px) {
-
   section.oracle-partner-Section {
-      border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
   }
-
   /*Digital Commerce Column fix */
   .column-2 {
     column-count: 2;
@@ -2551,11 +2549,9 @@ margin-left: 30px;
 }
 
 @media only screen and (max-width:1199px) and (min-width: 993px) {
-
   section.oracle-partner-Section {
-      border-bottom: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
   }
-
   .col-spaced-logo {
     height: 130px !important;
   }
