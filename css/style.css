@@ -2160,8 +2160,9 @@ accel-accordion-img .accordion-toggle>img {
   .glyphicon-minus:before, .glyphicon-plus:before {
     background: #c92d31;
     color: white;
-    padding: 3px;
+    padding: 7px;
     border-radius: 50px;
+    font-size: 10px; 
   }
   .img-range {
     width: auto;
