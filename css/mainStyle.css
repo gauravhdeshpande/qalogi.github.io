@@ -194,8 +194,12 @@ ul.lines-of-business li > a.lob4{
 		.text-center-767{
 			text-align:center;
 		}
-		.kd-p-1{
+		p.kd-p-1{
 			padding-right:15px;
+			margin:0;
+		}
+		.no-mar{
+			margin-bottom:0;
 		}
 		#brandings .container-img img{
 			border:1px solid #d3d3d3;
@@ -226,4 +230,11 @@ ul.lines-of-business li > a.lob4{
 			/*background:#00ff00;*/
 		}
 		
+	}
+	@media only screen and (min-width : 567px)and (max-width:992px){
+		p.hidden-sm.hidden-md,
+		span.hidden-sm.hidden-md,
+		span.kd-fix-2{
+			display:none;
+		}
 	}
