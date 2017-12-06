@@ -227,7 +227,31 @@ ul.lines-of-business li > a.lob4{
 		#brandings .container-img > img{
 			border:1px solid #d3d3d3;
 		}
+		#DestoBrand{
+			display:none;
+		}
+		#MobiBrand{
+			display:block;
+		}
+		#MobiBrand > div{
+			margin:10px 0;
+		}
+		#MobiBrand a{
+			width:100%;
+		}
+		#MobiBrand a img{
+			width:100%;
+			height:auto;
+		}
     }
+	@media only screen and (min-width : 769px){
+		#DestoBrand{
+			display:block;
+		}
+		#MobiBrand{
+			display:none;
+		}
+	}
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
