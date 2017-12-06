@@ -1403,8 +1403,8 @@ a.breadcrumb-item {
   .glyphicon-minus:before, .glyphicon-plus:before {
     background: #c92d31;
     color: white;
-    padding: 4px;
-    border-radius: 100%;
+    padding: 5px;
+    border-radius: 50%;
     font-size: 10px;
   }
   .mt8 {
@@ -2160,8 +2160,8 @@ accel-accordion-img .accordion-toggle>img {
   .glyphicon-minus:before, .glyphicon-plus:before {
     background: #c92d31;
     color: white;
-    padding: 4px;
-    border-radius: 100%;
+    padding: 5px;
+    border-radius: 50%;
     font-size: 10px;
   }
   .img-range {
