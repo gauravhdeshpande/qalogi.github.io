@@ -224,7 +224,7 @@ ul.lines-of-business li > a.lob4{
 		.no-mar{
 			margin-bottom:0;
 		}
-		#brandings .container-img img{
+		#brandings .container-img > img{
 			border:1px solid #d3d3d3;
 		}
     }
