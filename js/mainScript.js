@@ -4,13 +4,14 @@ $(document).ready(function(){
 	
 	$('.SeeMore2').click(function() {
       var $this = $(this);
+	  var txt = $($this.children('.btn-text')[0]);
 	  $this.toggleClass('up');
       $this.toggleClass('SeeMore2');
       if ($this.hasClass('SeeMore2')) {
-        $this.text('View More ');
+        txt.text('View More ');
         //$this.append('<img src="images/down-arrow.png" alt="Arrow down" />');
       } else {
-        $this.text('View Less ');
+        txt.text('View Less ');
         //$this.append('<img src="images/up-arrow.png" alt="Arrow Up" />');
       }
     });

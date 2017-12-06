@@ -309,4 +309,7 @@ ul.lines-of-business li > a.lob4{
 .btn-view-more{
 	background:#c43537 url('../images/down-arrow.png') no-repeat right 27% center/auto auto;
 }
+.btn-view-more .btn-text{
+	margin: 0 0 0 -14px;
+}
 
