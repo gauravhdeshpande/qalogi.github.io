@@ -1403,7 +1403,7 @@ a.breadcrumb-item {
   .glyphicon-minus:before, .glyphicon-plus:before {
     background: #c92d31;
     color: white;
-    padding: 7px;
+    padding: 4px;
     border-radius: 100%;
     font-size: 10px;
   }
@@ -2160,7 +2160,7 @@ accel-accordion-img .accordion-toggle>img {
   .glyphicon-minus:before, .glyphicon-plus:before {
     background: #c92d31;
     color: white;
-    padding: 7px;
+    padding: 4px;
     border-radius: 100%;
     font-size: 10px;
   }
