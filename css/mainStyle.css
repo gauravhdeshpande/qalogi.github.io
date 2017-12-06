@@ -291,6 +291,9 @@ ul.lines-of-business li > a.lob4{
 			width: 40%;
 			margin: 0 0 0 5%;
 		}
+		#cust-logo .panel-body img.customer-img {
+			margin: 0 0 16px 5%;
+		}
 		#collapseCustomers{
 			width:100%;
 			margin:5px 0 5px 0;
@@ -326,6 +329,18 @@ ul.lines-of-business li > a.lob4{
 	.card-success-stories.border-team .card-text{
 		font-size:14px!important;
 	}
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.overlay-lob p{
+		font-size:12px;
+	}
+	.overlay-lob p.font16 {
+		font-size:14px;
+	}
+}
+.btn-view-more{
+	background-color:#c43537;
+	color:#fff;
 }
 .btn-view-more.up{
 	background:#c43537 url('../images/up-arrow.png') no-repeat right 27% center/auto auto;
