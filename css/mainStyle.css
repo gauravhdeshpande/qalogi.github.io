@@ -330,6 +330,14 @@ ul.lines-of-business li > a.lob4{
 		font-size:14px!important;
 	}
 }
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.overlay-lob p{
+		font-size:12px;
+	}
+	.overlay-lob p.font16 {
+		font-size:14px;
+	}
+}
 .btn-view-more{
 	background-color:#c43537;
 	color:#fff;
