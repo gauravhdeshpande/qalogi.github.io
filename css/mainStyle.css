@@ -309,6 +309,11 @@ ul.lines-of-business li > a.lob4{
 			margin:0 6% 0 0;
 		}
 	}
+	@media only screen and (max-width: 567px){
+		p.kd-fix-6{
+			padding-right:8px;
+		}
+	}
 	
 /** Fixing Footer ***/
 @media only screen and (max-width: 1199px) and (min-width: 993px){
