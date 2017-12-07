@@ -368,4 +368,7 @@ ul.lines-of-business li > a.lob4{
 .btn-view-more .btn-text{
 	margin: 0 0 0 -14px;
 }
+.borderBottom{
+	border-bottom: 1px solid #d0d0d0
+}
 
