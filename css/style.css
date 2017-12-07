@@ -1400,11 +1400,12 @@ a.breadcrumb-item {
 }
 
 /*JoinLogixal Page Accordion Fix */
+/*
 @media only screen and (min-width:380px) and (max-width: 566px) { 
-    
     
 
 }
+*/
 
 @media only screen and (min-width:320px) and (max-width: 767px) {
   .glyphicon-minus:before, .glyphicon-plus:before {
@@ -1803,7 +1804,7 @@ a.breadcrumb-item {
     background-color: transparent;
     border-color: transparent;
     color: #233b83;
-    font-weight: 100;
+    font-weight: 600;
     border-bottom: 1px solid #d3d3d3;
   }
   .carousel-caption {
