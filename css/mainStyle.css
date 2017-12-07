@@ -371,4 +371,8 @@ ul.lines-of-business li > a.lob4{
 .borderBottom{
 	border-bottom: 1px solid #d0d0d0
 }
+.dropdown-submenu .caret{
+	width:8px;
+	height:4px;
+}
 
