@@ -384,3 +384,15 @@ ul.lines-of-business li > a.lob4{
 	 border-bottom: 1px solid #d0d0d0;
 }
 
+.abg-wrapper{
+	background:url('../images/01a-Bis-Goal.png') no-repeat top 5px left 5px/auto auto;
+	min-height:80px;
+	padding:0 0 0 50px
+}
+.abg-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.abg2{background-image:url('../images/01b-Bis-Goal.png');}
+.abg3{background-image:url('../images/01c-Bis-Goal.png');}
+.abg4{background-image:url('../images/01d-Bis-Goal.png');}
+.abg5{background-image:url('../images/01e-Bis-Goal.png');}
