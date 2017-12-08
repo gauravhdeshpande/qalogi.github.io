@@ -134,6 +134,75 @@ ul.lines-of-business li > a.lob4{
 #cust-logo .customer-img{
 	background-color:#fff;
 }
+
+
+.btn-view-more{
+	background-color:#c43537;
+	color:#fff;
+}
+.btn-view-more.up{
+	background:#c43537 url('../images/up-arrow.png') no-repeat right 27% center/auto auto;
+}
+.btn-view-more{
+	background:#c43537 url('../images/down-arrow.png') no-repeat right 27% center/auto auto;
+}
+.btn-view-more .btn-text{
+	margin: 0 0 0 -14px;
+}
+.borderBottom{
+	border-bottom: 1px solid #d0d0d0
+}
+.dropdown-submenu .caret{
+	width:8px;
+	height:4px;
+}
+#kd-fix-7{
+	 border-bottom: 1px solid #d0d0d0;
+}
+
+.abg-wrapper{
+	background:url('../images/01a-Bis-Goal.png') no-repeat top 5px left 5px/auto auto;
+	min-height:80px;
+	padding:0 0 0 50px
+}
+.abg-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.abg2{background-image:url('../images/01b-Bis-Goal.png');}
+.abg3{background-image:url('../images/01c-Bis-Goal.png');}
+.abg4{background-image:url('../images/01d-Bis-Goal.png');}
+.abg5{background-image:url('../images/01e-Bis-Goal.png');}
+
+/************ Digital Banking Solutions Page: How we define ourselves in banking ************/
+.defban-wrapper{
+	background:url('../images/03a-oracle-goldpartner.png') no-repeat top 5px left 5px/auto auto;
+	min-height:80px;
+	padding:0 0 0 64px
+}
+.defban-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.defban2{background-image:url('../images/03c-onbudget.png');}
+.defban3{background-image:url('../images/03b-OBDX.png');}
+.defban4{background-image:url('../images/03d-partners.png');}
+
+/************ Digital Banking Solutions Page: Our Range of services in banking ************/
+.ors-wrapper{
+	background:url('../images/01i-TechnoFunctional.png') no-repeat top 0px left 0px/77px auto;
+	min-height:80px;
+	padding:0 0 0 64px
+}
+.ors-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.ors1{background-image:url('../images/01f-Expertise.png');}
+.ors2{background-image:url('../images/01d-Expertise.png');}
+.ors3{
+	background:url('../images/01g-Expertise.png') no-repeat top 20px left 0px/90px auto;
+}
+.ors4{background-image:url('../images/01b-Expertise.png');}
+
+
 /*#index-about-us{
 	position:relative;
 	display:block;
@@ -360,39 +429,3 @@ ul.lines-of-business li > a.lob4{
 		margin: 0 5% 0 0;
 	}
 }
-.btn-view-more{
-	background-color:#c43537;
-	color:#fff;
-}
-.btn-view-more.up{
-	background:#c43537 url('../images/up-arrow.png') no-repeat right 27% center/auto auto;
-}
-.btn-view-more{
-	background:#c43537 url('../images/down-arrow.png') no-repeat right 27% center/auto auto;
-}
-.btn-view-more .btn-text{
-	margin: 0 0 0 -14px;
-}
-.borderBottom{
-	border-bottom: 1px solid #d0d0d0
-}
-.dropdown-submenu .caret{
-	width:8px;
-	height:4px;
-}
-#kd-fix-7{
-	 border-bottom: 1px solid #d0d0d0;
-}
-
-.abg-wrapper{
-	background:url('../images/01a-Bis-Goal.png') no-repeat top 5px left 5px/auto auto;
-	min-height:80px;
-	padding:0 0 0 50px
-}
-.abg-wrapper p{
-	padding: 2rem 0 0 40px;
-}
-.abg2{background-image:url('../images/01b-Bis-Goal.png');}
-.abg3{background-image:url('../images/01c-Bis-Goal.png');}
-.abg4{background-image:url('../images/01d-Bis-Goal.png');}
-.abg5{background-image:url('../images/01e-Bis-Goal.png');}
