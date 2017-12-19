@@ -412,11 +412,14 @@
     ga('send', 'pageview');
   </script>
   <!-- Scroll Header Javascript -->
-  <script>
+    <script>
     jQuery(document).scroll(function() {
       if (jQuery(this).scrollTop() > 300) {
         jQuery('.staticnav').css({
           "background": "white"
+        }); 
+        jQuery('.staticnav').css({
+          "box-shadow": " 0px  0px 10px   rgba(31, 31, 33, 0.12) "
         });
         jQuery('.staticnav').css({
           "height": "10%"
@@ -432,7 +435,10 @@
         jQuery('.staticnav').css({
           "background": "transparent"
         });
-        jQuery('a:not(a[href^="pdf"])').css({
+        jQuery('.staticnav').css({
+          "box-shadow": " none"
+        });
+        jQuery('a').css({
           "color": "white"
         });
         jQuery('.dropdown-menu>li>a').css({
