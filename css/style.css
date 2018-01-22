@@ -190,12 +190,17 @@ a.ourteam.hidden-sm:hover {
 }
 
 
-a
-  
-  .ourteam.hidden-sm:hover {
+/* Animation Effects on Website  */
+a.ourteam.hidden-sm:hover {
     background: #ff4e6e !important;
 }
-@
+
+.card-icon-image>a img:hover {
+    transition: all 0.3s ease-in;
+    opacity: 0.6;
+}
+
+
 /*Accel Widget Button */
 
 .text-accel-widget {
