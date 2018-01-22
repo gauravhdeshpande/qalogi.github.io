@@ -185,6 +185,17 @@ a.accordion-toggle>img {
   background: : #c43537;
 }
 
+a.ourteam.hidden-sm:hover {
+    background: #c43537 !important;
+}
+
+
+a
+  
+  .ourteam.hidden-sm:hover {
+    background: #ff4e6e !important;
+}
+@
 /*Accel Widget Button */
 
 .text-accel-widget {
